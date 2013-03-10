@@ -1,0 +1,35 @@
+\documentclass [11pt, twoside] {uwthesis}[2012/06/19]
+
+\setcounter{tocdepth}{1}  % Print the chapter and sections to the toc
+ 
+\begin{document}
+
+\input{thesis_prelim} 
+ 
+\textpages
+ 
+% ========== Chapter 1
+\chapter {Introduction: The Concurrent Software Reliability Problem}
+\input{intro}
+
+% ========== Chapter 2
+\chapter{Related Work}
+\input{related}
+ 
+% ========== Chapter 3
+\chapter{Debugging Concurrency Errors}
+\input{debugging/main}
+
+% ========== Chapter 4
+\chapter{Automatically Avoiding Failures Due to Concurrency Errors}
+\input{avoidance/main}
+
+% ========== Chapter 5 
+\chapter{Cross-cutting Themes and Future Work}
+\input{themesandfuturework}
+
+% ========== Chapter 6
+\chapter{Conclusions}
+\input{conclusions}
+
+\end{document}
